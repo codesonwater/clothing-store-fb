@@ -11,7 +11,7 @@
     "inventory": "25"
   },
   {
-    "productId": "",
+    "productId": "2",
     "category": "Shirt",
     "tag": "Womens",
     "name": "Polo",
@@ -22,7 +22,7 @@
     "inventory": "30"
   },
   {
-    "productId": "",
+    "productId": "3",
     "category": "Shirt",
     "tag": "Childrens",
     "name": "Polo",
@@ -51,5 +51,24 @@
     "city": "Miami",
     "state": "FL",
     "postal": "33180"
+  },
+  {
+    "trackingNumber": "12345",
+    "orderDate": "January 5th, 2022",
+    "deliveryDate": "January 10th, 2022",
+    "totalAmount": "120",
+    "paymentType": "Credit Card",
+    "productsArray": [{"price": 40,"productId": 1, "qty": 2, "subtotal": 80}, {"price": 40, "productId": 2, "qty": 1, "subtotal": 40}],
+    "customerId": "100"
+  },
+  {
+    "trackingNumber": "653456",
+    "orderDate": "Februart 5th, 2022",
+    "deliveryDate": "February 10th, 2022",
+    "totalAmount": "29",
+    "paymentType": "Credit Card",
+    "productsArray": [{"price": 29,"productId": 3, "qty": 1, "subtotal": 29}],
+    "customerId": "101"
   }
+
 ]
